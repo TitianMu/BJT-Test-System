@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.egg
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude / AI tools
+.claude/
+
+# Large binary files (use external hosting for these)
+*.mp4
+*.avi
+*.mov
+
+# Project specific
+*.pptx
+*.xlsx
+raw_data/
+backups/
+temp_*
