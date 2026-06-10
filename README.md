@@ -23,7 +23,14 @@ The three-layer design with a **dual-driver pattern** enables transparent switch
 
 ## Test Circuits
 
-![Circuit Topology](assets/circuit_topology.png)
+### hFE Measurement Circuit
+![hFE Circuit](assets/放大倍数电路.png)
+
+### Saturation Voltage Circuit (Kelvin 4-Wire)
+![Saturation Circuit](assets/饱和压降电路.png)
+
+### Leakage Current Circuit (Transimpedance)
+![Leakage Circuit](assets/漏电流电路.png)
 
 Three dedicated measurement circuits on a single breadboard:
 
@@ -105,7 +112,10 @@ BJT-Test-System/
 │   └── breadboard_circuit.jpg # Breadboard implementation
 ├── assets/                   # Diagrams & screenshots
 │   ├── system_architecture.png
-│   ├── circuit_topology.png
+│   ├── BJT_Test_System_Flowchart.svg
+│   ├── 放大倍数电路.png         # hFE circuit
+│   ├── 饱和压降电路.png         # Saturation circuit
+│   ├── 漏电流电路.png           # Leakage circuit
 │   ├── gui_main_window.png
 │   ├── gui_dual_mode.png
 │   └── gui_virtual_presets.png
