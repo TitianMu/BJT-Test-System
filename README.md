@@ -7,7 +7,7 @@ An automated BJT transistor testing system built on the **Raindrop Model3 instru
 
 ## System Architecture
 
-![System Architecture](assets/BJT_Test_System_Flowchart.svg)
+![System Architecture](assets\BJT_Test_System_Flowchart1.svg)
 
 The three-layer design with a **dual-driver pattern** enables transparent switching between simulated BJT models and physical Model3 hardware through a shared Python API.
 
